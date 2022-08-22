@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-// import { StyledNavbar } from './styles/Navbar.styled';
 import { Nav } from "./styles/Navbar.styled";
 import { BsToggleOn, BsToggleOff } from "react-icons/bs";
 import { FiLock } from "react-icons/fi";
-// import  styledComponents  from 'styled-components';
+import { Link } from "react-router-dom"
+
 
 export default function Navbar() {
     const [navState, setNavState] = useState(false);
@@ -11,7 +11,7 @@ export default function Navbar() {
    
           <Nav>
           <div className="brand">
-                      <a href="/"><h1>Jeolight Motors</h1></a>
+                      <a href="/"><h1><span className="highlight">Jeolight</span> Motors</h1></a>
               <div className="toggle">
                   {navState ? (
                       <BsToggleOn onClick= {()  => setNavState(false)} />
@@ -36,16 +36,18 @@ export default function Navbar() {
                       <a href="#sell">Sell</a>
                   </li>
                   <li>
-                      <a href="#news">News</a>
+                      <a href="#blogs">News</a>
                   </li>
                   <li>
                       <a href="#swap">Swap</a>
                   </li>
               </ul>
               <div className="login-btn">
+                  <Link to="/login/Login">
                   <button>
                       <FiLock /> Login & Registration
                   </button>
+                  </Link>
 
               </div>
           </div>
@@ -54,4 +56,4 @@ export default function Navbar() {
     
   );
 }
-// const Nav = styledComponents.nav``
+

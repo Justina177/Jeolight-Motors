@@ -99,7 +99,7 @@ import img12 from '../img/j10.jpeg';
 
 const data = {
     
-    products: [
+    cars: [
         
         {
             
@@ -107,7 +107,7 @@ const data = {
             name:'Toyota',
             slug: 'toyota1',
             brand: 'Toyota',
-            price: '3,900,000',
+            price: '7,900,000',
             description: '1,960,000'
         },
 
@@ -117,8 +117,8 @@ const data = {
             name:'Honda',
             slug: 'toyota2',
             brand: 'Toyota',
-            price: '4,000,000',
-            description: '1,960,000'
+            price: '9,000,000',
+            description: '11,960,000'
         },
 
         {
@@ -128,7 +128,7 @@ const data = {
             name:'SUV',
             slug: 'toyota3',
             brand: 'Toyota',
-            price: '2,600,000',
+            price: '12,600,000',
             description: '1,960,000'
         },
 
@@ -136,18 +136,19 @@ const data = {
             
             image: img11,
             name:'Nissan',
-            brand: 'Toyota4',
-            price: '4,800,000',
+            slug: 'Toyota4',
+            brand: 'Toyota',
+            price: '14,800,000',
             description: '1,960,000'
         },
 
         {
             
             image: img12,
-            name:'Ford',
+            name:'Benz',
             slug: 'toyota5',
             brand: 'Toyota',
-            price: '2,700,000',
+            price: '122,700,000',
             description: '1,960,000'
         },
 

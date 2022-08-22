@@ -1,5 +1,4 @@
 import React from "react";
-// import styled from "styled-components";
 import { Section } from "./styles/News.styled";
 import j1 from "../img/j1.jpeg";
 import j3 from "../img/j3.jpeg";

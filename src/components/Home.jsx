@@ -16,7 +16,7 @@ export default function Home() {
         <p>
           Where you can buy, sell and swap cars conviently, <span className="highlight"> jeolight motors </span>
           help you
-          <span className="highlight"></span>
+          <span className="highlight"> and your customers </span> 
           by trading cars, finding cars of your choice and enjoy the convience of 
           online deals. Let us take your business into the digital world. Welcome!
         </p>
@@ -75,7 +75,7 @@ export const Section = styled.section`
     margin: 0 1rem;
     .image {
       img {
-        width: 50%;
+        width: 100%;
       }
     }
     .text {
@@ -84,10 +84,10 @@ export const Section = styled.section`
       flex-direction: column;
       align-items: center;
       h1 {
-        font-size: 2vw;
+        font-size: 5vw;
       }
       p {
-        font-size: 5vw;
+        font-size: 4vw;
       }
     }
   }

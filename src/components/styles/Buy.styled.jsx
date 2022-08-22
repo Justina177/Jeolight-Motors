@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
-
-
 export const Section = styled.section`
-  margin: 3rem 5rem;
+  margin: 1rem 4rem;
   .row {
     display: flex;
     gap: 4rem;
@@ -15,6 +13,10 @@ export const Section = styled.section`
       gap: 2rem;
       img {
         height: 60vh
+      }
+      .text:{
+        display: flex;
+        flex-direction: column;
       }
       h2 {
         font-size: 3rem;
@@ -32,7 +34,7 @@ export const Section = styled.section`
         flex-direction: column;
         text-align: center;
         img {
-          height: 10rem;
+          height: 30vh;
         }
         h2 {
           font-size: 2.0rem;

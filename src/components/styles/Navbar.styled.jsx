@@ -4,11 +4,12 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
-  margin: 1rem 4rem;  
+  margin: 2rem 3rem;  
 
   .brand {
     display: flex;
     align-items: center;
+    
    
     .toggle {
       display: none;

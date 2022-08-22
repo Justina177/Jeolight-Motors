@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 export default class SignUp extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
@@ -89,6 +90,8 @@ export default class SignUp extends Component {
           Already registered <a href="/sign-in">sign in?</a>
         </p>
       </form>
-    );
+     
+    ); 
+    
   }
 }

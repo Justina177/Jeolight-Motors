@@ -1,3 +1,5 @@
+
+
 .main {
     padding: 1rem;
 }
@@ -15,5 +17,9 @@
 .car img {
     width: 100%;
     max-width: 400px
+
+}
+.button {
+    max-height: 10px;
 
 }
